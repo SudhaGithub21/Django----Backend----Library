@@ -88,7 +88,7 @@ class Reservation(models.Model):
     reservation_date = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.user.username} reserved {self.book.title}"
+        return f"{self.user.first_name} {self.user.last_name} reserved {self.book.title}"
 
 class Penalty(models.Model):
 
@@ -101,7 +101,7 @@ class Penalty(models.Model):
     paid = models.BooleanField(default=False)
 
     def __str__(self):
-        return f"Penalty for {self.user.username}"
+        return f"Penalty for {self.user.first_name} {self.user.last_name}"
 
 class Inventory(models.Model):
 
@@ -126,7 +126,7 @@ class Review(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Review for {self.book.title} by {self.user.username}"
+        return f"Review for {self.book.title} by {self.user.first_name} {self.user.last_name}"
 
 
 
