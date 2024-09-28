@@ -24,19 +24,6 @@ Now, I am working on a backend project called Library Management System using th
 8. Finally, run the server:
    python manage.py runserver
 9. Pass the URLs to create, read, update, and delete the data.
-This workflow has been very helpful for me in building and managing the project.
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info.
-?
+   This workflow has been very helpful for me in building and managing the project.
 
 
