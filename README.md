@@ -18,12 +18,14 @@ Now, I am working on a backend project called Library Management System using th
 5. Study and practice basic ORM using the interactive shell:
    # python manage.py shell
 6. Create a serializers.py file in the library_manage app folder.Perform serialization and deserialization using ORM in the interactive shell:
+
    Serializable: Outward Data - Data from the database is represented to the requesting server.
+
    Deserializable: Inward Data - To input data into the database.
-7. Create a urls.py file in the library_manage app folder and add the app URLs to the project's urls.py file.
-8. Finally, run the server:
+8. Create a urls.py file in the library_manage app folder and add the app URLs to the project's urls.py file.
+9. Finally, run the server:
    # python manage.py runserver
-9. Pass the URLs to create, read, update, and delete the data.
+10. Pass the URLs to create, read, update, and delete the data.
 
 This workflow has been very helpful for me in creating, building, and managing the project. I am thankful for the guidance and support that have helped me complete the project successfully.
 
